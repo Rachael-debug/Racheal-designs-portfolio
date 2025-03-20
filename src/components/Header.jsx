@@ -1,5 +1,5 @@
 // import reactImg from '../../assets/react-core-concepts.png';
-import MenuList from "./menuList";
+import MenuList from "./MenuList";
 
 export default function Header() {
   return (
