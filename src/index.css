@@ -128,6 +128,24 @@ header{
   transform: rotate(1800deg);
   transition: all 12s ease-in-out;
 }
+
+#downloadResume{
+  position: fixed;
+  top: 120px;
+  right: 50px;
+  animation: spin 10s infinite linear;
+}
+#downloadResume img{
+  width: 100px;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out;
+}
+#downloadResume img:hover{
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.05);
+}
+
 #roles{
   list-style-type: none;
   color: #ffd935;
@@ -318,6 +336,15 @@ header{
   }
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media only screen and (max-width: 600px){
   #root{
     margin-right: 20px;
@@ -389,6 +416,15 @@ header{
   #secondInfo{
     display: none;
   }
+
+  #downloadResume{
+    top: 90px;
+    right: 40px;
+  }
+  #downloadResume img{
+    width: 80px;
+  }
+
   
   #roles{
     flex-direction: column;
