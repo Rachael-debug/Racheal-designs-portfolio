@@ -1,6 +1,5 @@
 import profileImg from '../assets/profile-pic.svg';
 import star from '../assets/star.svg';
-import paintSplash from '../assets/paint-splash.svg'
 
 export default function About(){
     return(

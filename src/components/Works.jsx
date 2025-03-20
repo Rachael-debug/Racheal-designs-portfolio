@@ -6,6 +6,7 @@ import spaceTourism from "../assets/space-tourism.png";
 import investmentCalc from "../assets/investment-calculator.png"
 import ticTacToe from "../assets/tic-tac-toe.png"
 import myTodolist from "../assets/my-todolist.jpg"
+import portfolioWebsite from "../assets/portfolio-website.png"
 
 export default function Works(){
     return(
@@ -52,12 +53,12 @@ export default function Works(){
                 thirdTag="Html/CSS"/>
 
                 <IndividualWork
-                link="https://emerald-publishers.vercel.app/"
-                desktopImage={greenEmerald}
-                workTitle="Green Emerald website"
+                link="#"
+                desktopImage={portfolioWebsite}
+                workTitle="Portfolio Website"
                 firstTag="UIUX"
                 secondTag="Html/CSS"
-                thirdTag="JS"/>
+                thirdTag="ReactJS"/>
             </div>
 
             <div id="worksDescription" >
