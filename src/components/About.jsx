@@ -1,4 +1,4 @@
-import profileImg from '../assets/profile-pic.svg';
+import profileImg from '../assets/profile-pic.jpg';
 import star from '../assets/star.svg';
 import rachaelResume from '../assets/Rachael-Resume.pdf'
 import downloadResume from '../assets/downloadResume.svg'
