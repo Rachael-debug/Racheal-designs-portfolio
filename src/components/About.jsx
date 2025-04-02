@@ -1,6 +1,6 @@
 import profileImg from '../assets/profile-pic.jpg';
 import star from '../assets/star.svg';
-import rachaelResume from '../assets/Rachael-Resume.pdf'
+import rachaelResume from '../assets/Rachael-A-Resume.pdf'
 import downloadResume from '../assets/downloadResume.svg'
 
 export default function About(){
@@ -10,14 +10,14 @@ export default function About(){
                 <div id="firstInfo">
                     <h1>WEB</h1>
                     <h1>DEVE</h1><h2><span>LOPER</span></h2>
-                    <p id='introduction'>Creative and detail-oriented Graphic Designer transitioning into Frontend Development. Proficient in HTML, CSS, and JavaScript, with a strong foundation in UI/UX design principles.</p>
+                    <p id='introduction'>Creative and detail-oriented Frontend Developer with a background in Graphic Design. Proficient in HTML, CSS, JavaScript, and React.js, with a strong foundation in UI/UX principles.</p>
                 </div>
             
                 <div id='profileImg'>
                     <img src={profileImg} alt="" />
                 </div>
                 <div>
-                    <a href={rachaelResume} download="Rachael Resume" id='downloadResume'><img src={downloadResume} alt="Download Resume" /></a>
+                    <a href={rachaelResume} download="Rachael Akinfoyewa Resume" id='downloadResume'><img src={downloadResume} alt="Download Resume" /></a>
                     <div id='secondInfo'>
                         <p className='appDesriptions'>user-friendly<br/>designs</p>
                         <img src={star} alt="" />
