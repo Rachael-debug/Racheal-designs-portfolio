@@ -7,6 +7,7 @@ import investmentCalc from "../assets/investment-calculator.png"
 import ticTacToe from "../assets/tic-tac-toe.png"
 import myTodolist from "../assets/my-todolist.jpg"
 import portfolioWebsite from "../assets/portfolio-website.png"
+import owl from "../assets/owl.png"
 
 export default function Works(){
     return(
@@ -19,6 +20,14 @@ export default function Works(){
                 firstTag="UIUX"
                 secondTag="Html/CSS"
                 thirdTag="JS"/>
+
+                <IndividualWork
+                link="https://owl-mocha.vercel.app/"
+                desktopImage={owl}
+                workTitle="Owl Website"
+                firstTag="UIUX"
+                secondTag="Html/CSS"
+                thirdTag="ReactJS"/>
 
                 <IndividualWork
                 link="https://space-tourism-website-tau-three.vercel.app/"
