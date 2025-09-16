@@ -8,6 +8,7 @@ import ticTacToe from "../assets/tic-tac-toe.png"
 import myTodolist from "../assets/my-todolist.jpg"
 import portfolioWebsite from "../assets/portfolio-website.png"
 import owl from "../assets/owl.png"
+import locationfinder from "../assets/locationfinder.png"
 
 export default function Works(){
     return(
@@ -20,6 +21,14 @@ export default function Works(){
                 firstTag="UIUX"
                 secondTag="Html/CSS"
                 thirdTag="JS"/>
+
+                <IndividualWork
+                link="https://location-finder-wine-five.vercel.app/"
+                desktopImage={locationfinder}
+                workTitle="Location Finder"
+                firstTag="React"
+                secondTag="TS"
+                thirdTag="MapboxGL"/>
 
                 <IndividualWork
                 link="https://owl-mocha.vercel.app/"
