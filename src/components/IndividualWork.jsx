@@ -3,7 +3,7 @@ export default function IndividualWork({link, desktopImage, firstTag, secondTag,
         <a href={link} className="individualWorksLink" target="_blank">
             <div className="individualWork">
                
-                <img src={desktopImage} alt="" />
+                <img src={desktopImage} alt=""/>
 
                 <div className="tags">
                     <p>{firstTag}</p>

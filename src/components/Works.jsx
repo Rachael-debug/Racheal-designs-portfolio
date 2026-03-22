@@ -9,18 +9,28 @@ import myTodolist from "../assets/my-todolist.jpg"
 import portfolioWebsite from "../assets/portfolio-website.png"
 import owl from "../assets/owl.png"
 import locationfinder from "../assets/locationfinder.png"
+import emeraldbooks from "../assets/emeraldbooks.png"
+import lafiamoms from "../assets/lafiamoms.png"
 
 export default function Works(){
     return(
         <section className="Works" >
             <div className="individualWorksWrapper">
                 <IndividualWork
-                link="https://emerald-publishers.vercel.app/"
-                desktopImage={greenEmerald}
-                workTitle="Green Emerald website"
-                firstTag="UIUX"
-                secondTag="Html/CSS"
-                thirdTag="JS"/>
+                link="https://lafiamoms.com/"
+                desktopImage={lafiamoms}
+                workTitle="LafiaMoms"
+                firstTag="ReactJs/TS"
+                secondTag="Tailwind"
+                thirdTag="UIUX"/>
+
+                <IndividualWork
+                link="https://emeraldbooksng.com/"
+                desktopImage={emeraldbooks}
+                workTitle="Green Emerald Educational Services"
+                firstTag="ReactJs / TS"
+                secondTag="Tailwind CSS"
+                thirdTag="Sanity CMS"/>
 
                 <IndividualWork
                 link="https://location-finder-wine-five.vercel.app/"
@@ -45,6 +55,14 @@ export default function Works(){
                 firstTag="Html"
                 secondTag="CSS"
                 thirdTag="Javascript"/>
+
+                <IndividualWork
+                link="https://emerald-publishers.vercel.app/"
+                desktopImage={greenEmerald}
+                workTitle="Green Emerald website"
+                firstTag="UIUX"
+                secondTag="Html/CSS"
+                thirdTag="JS"/>
 
                 <IndividualWork
                 link="https://investment-calculator-seven-indol.vercel.app/"
